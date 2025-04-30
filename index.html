@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Staff Training Schedule | Nursing Administration Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f77b4;
+      color: white;
+      padding: 15px 20px;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    h1 {
+      color: #1f77b4;
+    }
+    .filters {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .filters select {
+      margin-right: 15px;
+      padding: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    .action a {
+      color: #1f77b4;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .info-box {
+      background: #e6e6e6;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .footer {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #d9edf7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Nursing Administration Portal</h2>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Tools</a>
+  <a href="#">Training Schedule</a>
+</nav>
+
+<div class="container">
+  <h1>📅 Staff Training Schedule</h1>
+  <p>Stay updated with mandatory and optional training for nursing staff</p>
+
+  <div class="filters">
+    <label>Department:
+      <select>
+        <option>All</option>
+        <option>Emergency</option>
+        <option>ICU</option>
+        <option>Outpatient</option>
+      </select>
+    </label>
+    <label>Role:
+      <select>
+        <option>All</option>
+        <option>RN</option>
+        <option>Head Nurse</option>
+        <option>Admin</option>
+      </select>
+    </label>
+    <label>Month:
+      <select>
+        <option>April</option>
+        <option>May</option>
+      </select>
+    </label>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Location</th>
+        <th>Topic</th>
+        <th>Instructor</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>April 30</td>
+        <td>10:00 AM</td>
+        <td>Conf Rm A</td>
+        <td>Medication Safety</td>
+        <td>Dr. Jane Reyes</td>
+        <td class="action"><a href="#">Enroll</a></td>
+      </tr>
+      <tr>
+        <td>May 2</td>
+        <td>2:00 PM</td>
+        <td>Online (Zoom)</td>
+        <td>Infection Control</td>
+        <td>Mr. Paul Dizon</td>
+        <td class="action"><a href="#">Enroll</a></td>
+      </tr>
+      <tr>
+        <td>May 5</td>
+        <td>9:00 AM</td>
+        <td>Conf Rm B</td>
+        <td>EHR Documentation</td>
+        <td>Ms. Ana Santos</td>
+        <td class="action"><a href="#">Enroll</a></td>
+      </tr>
+      <tr>
+        <td>May 8</td>
+        <td>1:00 PM</td>
+        <td>Online</td>
+        <td>Leadership Skills</td>
+        <td>Dr. Leo Marcos</td>
+        <td class="action"><a href="#">Enroll</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="info-box">
+    📁 <strong>Past Trainings Archive:</strong> <a href="#">View All</a><br>
+    📝 <strong>Feedback:</strong> <a href="#">Submit your training experience</a>
+  </div>
+
+  <div class="footer">
+    📥 Need help? Contact the Training Coordinator<br>
+    📧 Email: training@nursingadmin.edu<br><br>
+    📌 <a href="#">Back to Dashboard</a>
+  </div>
+</div>
+
+</body>
+</html>
